@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="start-button">Start Spel</button>
+    <div class="scoreboard">
+        <span>Speler: <span id="player-score">0</span></span>
+        <span>Computer: <span id="computer-score">0</span></span>
+        <span>Level: <span id="level">1</span></span>
+        <span>Tijd over: <span id="timer">60</span></span>
+    </div>
+    <div class="game-container">
+        <div class="paddle left-paddle"></div>
+        <div class="paddle right-paddle"></div>
+        <div class="ball"></div>
+        <div class="ball ball2"></div>
+        <div class="middle-line"></div>
+        <div class="obstacle"></div>
+        <div class="power-up"></div>
+        <div class="power-down"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
